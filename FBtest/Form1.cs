@@ -22,6 +22,8 @@ namespace FBtest
         {
             FacebookWrapper.LoginResult result =
             FacebookWrapper.FacebookService.Login("447860082058010", "user_photos", "user_friends", "user_events", "user_status", "publish_actions");
+            FacebookWrapper.FacebookService.Login("447860082058010", "user_photos", "user_friends", "user_events", "user_status", "publish_actions");
+            FacebookWrapper.FacebookService.Login("447860082058010", "user_photos", "user_friends", "user_events", "user_status", "publish_actions");
 
             if (string.IsNullOrEmpty(result.ErrorMessage))
             {
