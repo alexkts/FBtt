@@ -70,6 +70,15 @@ namespace FBtest
         {
       
             m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
+			m_LoggedInUser.PostStatus(textBox1.Text);
         }
 
     }
