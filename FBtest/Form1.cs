@@ -16,6 +16,9 @@ namespace FBtest
         {
             InitializeComponent();
         }
+
+                    InitializeComponent();
+
         FacebookWrapper.ObjectModel.User m_LoggedInUser;
 
         private void btLogin_Click(object sender, EventArgs e)
@@ -75,7 +78,6 @@ namespace FBtest
 			m_LoggedInUser.PostStatus(textBox1.Text);
 			m_LoggedInUser.PostStatus(textBox1.Text);
 			m_LoggedInUser.PostStatus(textBox1.Text);
-			m_LoggedInUser.PostStatus("alex gay! alex gay! alex gay! alex gay! alex gay! alex gay! alex gay!!!!");
 			m_LoggedInUser.PostStatus(textBox1.Text);
 			m_LoggedInUser.PostStatus(textBox1.Text);
 			m_LoggedInUser.PostStatus(textBox1.Text);
